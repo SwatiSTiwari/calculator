@@ -1,0 +1,58 @@
+section#info-container
+  background-color: var(--white)
+  border-radius: 25px
+  padding: 32px
+  >table
+    width: 100%
+    border-collapse: collapse
+    margin-bottom: 32px
+    tr:nth-child(1) td
+      font-size: larger
+      padding-bottom: 8px
+    tr:nth-child(1) td,tr:nth-child(3) td
+      border-bottom: 1px solid var(--gray2)
+    tr:nth-child(2) td,tr:nth-child(4) td
+      vertical-align: top
+      padding-top: 8px
+      color: var(--gray)
+      font-size: smaller
+    tr:nth-child(2) td
+      padding-bottom: 32px
+    tr:nth-child(3)
+      td
+        vertical-align: bottom
+      td:nth-child(4)
+        //? calc width
+        width: 20%
+        color: var(--color6)
+        text-align: end
+        font-weight: bold
+        span
+          // vertical-align: bottom
+          line-height: 100%
+          font-size: xxx-large
+        // span::first-letter
+        //   color: red
+        //   vertical-align: top
+    tr:nth-child(4) td:nth-child(4)
+      text-align: end
+      color: var(--black)
+      font-weight: bold
+  >button
+    padding: 12px
+    width: 100%
+    background-color: var(--color6)
+    color: var(--white)
+    border: none
+    border-radius: 24px
+    font-weight: bold
+    font-size: 11pt
+    cursor: pointer
+  >div
+    padding-top: 32px
+    text-align: center
+    color: var(--gray)
+    font-size: smaller
+    svg
+      // #808080 gray
+      filter: invert(47%) sepia(35%) saturate(3%) hue-rotate(315deg) brightness(99%) contrast(79%)
